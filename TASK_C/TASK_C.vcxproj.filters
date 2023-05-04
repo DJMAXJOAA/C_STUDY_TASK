@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="230427 수명문제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230428 문제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230428 양의 정수 배수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230428 정수의합.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230428 조건문.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230428 팩토리얼.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230428 평균 학점 구하기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230501 176p 3번 중첩반복문.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230501 구구단.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230501 반복문.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230501 반복문변형.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230501 별.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230503 177p 반복문 도전실전예제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230503 달팽이 피보나치.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230503 식만족 A-Z.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230504 광고판 문자열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230504 대소문자 변환.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230504 배열기본.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230504 포인터연습.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="백준.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230504 261p 미니정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
