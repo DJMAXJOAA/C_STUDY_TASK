@@ -72,10 +72,22 @@
     <ClCompile Include="230504 포인터연습.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="백준.c">
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="230504 261p 미니정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230504 문자열나누기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230505 광고판-포인터.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230505 배열포인터 정수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230505 배열포인터 문자열.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
