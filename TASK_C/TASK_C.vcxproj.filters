@@ -90,5 +90,11 @@
     <ClCompile Include="230505 배열포인터 문자열.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="230505 292p 실전예제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230505 315p 길이가 가장 긴 단어.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

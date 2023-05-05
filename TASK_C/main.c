@@ -3,9 +3,9 @@
 
 int main()
 {
-	char y[51];
-	scanf("%s", y);
+	long long a, b, c;
+	scanf("%lld %lld %lld", &a, &b, &c);
 
-	printf("%s?\?!", y);
+	printf("%lld", a + b + c);
 	return 0;
 }
