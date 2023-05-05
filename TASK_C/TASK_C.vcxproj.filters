@@ -96,5 +96,8 @@
     <ClCompile Include="230505 315p 길이가 가장 긴 단어.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="230505 백준 팰린드롬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
