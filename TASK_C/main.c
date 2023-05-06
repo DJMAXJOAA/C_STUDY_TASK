@@ -3,30 +3,32 @@
 #include <stdlib.h>
 #include <string.h>
 
-int palindrome(char* word, int range);
-
 int main()
 {
-	char word[1000] = { 0 };
-	char *p_word = word;
-	gets(word);
-	const int range = strlen(word);
+	char arr1[1000] = { 0 };
+	int count = 0;
+	int n = 0;
+	
+	scanf("%d", &n);	// n È½¼ö
+	gets(arr1);
 
-	int x = palindrome(word, range);
-	printf("%d", x);
-
-	return 0;
-}
-
-int palindrome(char word[], int range)
-{
-	if (range < 1 || range > 100) return 0;
-	for (int i = 0; i < range/2; i++)
+	for (int i = 0; i < n; i++)
 	{
-		if (word[i] != word[range-i-1])
+		gets(arr1);
+		const length = strlen(arr1);		
+
+		for (int i = 2; *arr1 != '\0'; i++)
 		{
-			return 0;
+			for (int j = 0; j < i; j++)
+			{
+				if (arr1[i] == arr1[j])
+				{
+					break;
+				}
+			}
 		}
-	}	
-	return 1;
+	}
+	printf("%d", count);
+	
+	return 0;
 }
