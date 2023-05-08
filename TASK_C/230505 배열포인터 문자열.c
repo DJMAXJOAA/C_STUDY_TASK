@@ -7,7 +7,7 @@ int main()
 {
 	char Arr[50];
 
-	gets(Arr);
+	getchar();
 
 	const int length = strlen(Arr);
 
