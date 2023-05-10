@@ -108,10 +108,25 @@
     <ClCompile Include="230508 백준 그룹단어 체커.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="230510 단어공부.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="230508 문자열 바꾸기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230510 행렬정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230510 행렬 시계방향.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230510 지그재그출력.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230510 413p.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

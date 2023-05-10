@@ -1,41 +1,34 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
-void Big(char* word);
+#include <stdlib.h>
+#include <string.h>
 
 int main()
 {
-	char word[10000];
-	char count_word[10000] = {0};
-	char* p_word = word;
-	int count = 0;
+	int c;
+	scanf("%d", &c);
 
-	scanf("%s", word);
-	Big(word);
-
-	int i = 0;
-	while (word != '\0')
+	for (int i = 0; i < c; i++)
 	{
-		for (int j = 0; j < strlen(count_word); j++)
+		int n = 0;
+		double count = 0;
+		double score[1000] = { 0 };
+		double avg = 0;
+		scanf("%d", &n);
+		for (int j = 0; j < n; j++)
 		{
-			if (count_word[j] == *p_word)
+			scanf("%lf", &score[j]);
+			avg += score[j];
+		}
+		avg /= n;
+		for (int j = 0; j < n; j++)
+		{
+			if (score[j] > avg)
 			{
-
+				count++;
 			}
 		}
-		p_word++;
+		printf("%.3lf%%\n", (double)100 / n * count);
 	}
 	return 0;
-}
-
-void Big(char* word)
-{
-	while (word != '\0')
-	{
-		if (*word >= 'a' && *word <= 'z')
-		{
-			*word -= 32;
-		}
-		word++;
-	}
 }
