@@ -126,7 +126,25 @@
     <ClCompile Include="230510 413p.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="230510 단어 뒤집기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230510 덩치.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230511 야구게임.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230511 포인터배열 연습.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230511 448p 프로필 교환프로그램.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230511 프로그래머스 콜라.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230511 동적할당 단어역출력.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
