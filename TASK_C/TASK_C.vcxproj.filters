@@ -147,5 +147,14 @@
     <ClCompile Include="230511 동적할당 단어역출력.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="230511 백준 방번호.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230512 소수판정 동적할당.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230512 성적처리.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
