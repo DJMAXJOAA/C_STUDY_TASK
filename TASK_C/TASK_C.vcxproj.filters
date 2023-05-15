@@ -156,5 +156,20 @@
     <ClCompile Include="230512 성적처리.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="230512 성적처리 링크드리스트.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230515 단어검출 프로그램.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230515 구구단 파일입출력.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230515 파일복사 프로그램.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

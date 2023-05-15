@@ -1,0 +1,5 @@
+lion
+elepehant
+dog
+tiger
+monkey
