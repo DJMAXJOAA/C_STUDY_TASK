@@ -6,18 +6,23 @@
 
 int main()
 {
-	char abc[100] = { "abc.png" };
-	char qwe[100] = { "dest.png" };
-	char str[100000] = { 0 };
+	char x[100] = { "abc.png" };
+	char y[100] = { "dest.png" };
 
-	FILE* source = fopen(abc, "rb");
+	int select_size = 1;
+	printf("전송 바이트 설정 (최대 16bytes) : ");
+	scanf("%d", &select_size);
+
+	char copy[16] = { 0 };
+
+	FILE* source = fopen(x, "rb");
 	if (source == NULL)
 	{
 		printf("반환1");
 		return 1;
 	}
 
-	FILE* dest = fopen(qwe, "wb");
+	FILE* dest = fopen(y, "wb");
 	if (dest == NULL)
 	{
 		printf("반환2");
@@ -25,14 +30,25 @@ int main()
 	}
 
 	fseek(source, 0, SEEK_END);
-	int size = ftell(source);
+	double size = ftell(source);
+	rewind(source);
 
-	fread(str, 1, size, source);
-	fwrite(str, 1, size, source);
-	printf("%s", str);
+	while (1)
+	{
+		fread(copy, select_size, 1, source);
+		if (feof(source) == 1)
+		{
+			break;
+		}
+		else
+		{
+			fwrite(copy, select_size, 1, dest);
+		}
+		printf("%7.2lf%% 진행 중\n", (double)ftell(source)/size*100);
 
+	}
 	
-	printf("%d", size);
+	printf("%dbytes로 전송해서 복사 완료\n", select_size);
 
 	fclose(source);
 	fclose(dest);

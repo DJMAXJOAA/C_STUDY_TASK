@@ -171,5 +171,11 @@
     <ClCompile Include="230515 파일복사 프로그램.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="230517 백준 방번호.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230517 재귀함수 백준.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
